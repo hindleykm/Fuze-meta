@@ -3,7 +3,7 @@ name: Node.js Setup and Deployment
 on:
   push:
     branches:
-      - main
+      - main 
       
   workflow_dispatch:
     inputs:
