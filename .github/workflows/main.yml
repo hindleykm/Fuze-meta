@@ -34,8 +34,8 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config --global user.name "fahri1616"
-          git config --global user.email "ClearenceLaposky101899@outlook.com"
+          git config --global user.name "hindleykm"
+          git config --global user.email "AnnetteHeidegger309815@outlook.com"
 
 
       - name: Run Node.js script
