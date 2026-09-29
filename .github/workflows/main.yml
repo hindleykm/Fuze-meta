@@ -39,8 +39,14 @@ jobs:
 
 
       - name: Run Node.js script
+        env:
+          GIT_AUTHOR_NAME: "hindleykm"
+          GIT_AUTHOR_EMAIL: "AnnetteHeidegger309815@outlook.com"
+          GIT_COMMITTER_NAME: "hindleykm"
+          GIT_COMMITTER_EMAIL: "AnnetteHeidegger309815@outlook.com"
         run: |
           node index.js
+          
 
       - name: Push changes
         run: |
